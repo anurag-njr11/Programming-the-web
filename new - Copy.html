@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Great Indian Restaurant</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      overflow: hidden;
+    }
+
+
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: blur(8px);
+    }
+
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 0;
+    }
+
+  
+    .content {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #0048ff;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 300px;
+      height: 200px;
+      border-radius: 30px;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 2rem;
+      color: #ff0000;
+      margin-bottom: 10px;
+    }
+
+    ul.item {
+      list-style-type: square;
+      background: rgba(81, 179, 218, 0.9);
+      color: #000;
+      font-size: 1.2rem;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+      width: 250px;
+      text-align: left;
+    }
+
+    ul.item li {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+
+  <video class="video-bg" autoplay muted loop>
+    <source src="resvid2.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h1>Welcome to Great Indian Restaurant</h1>
+    <img src="restaurant.jpg" alt="Restaurant Image" />
+    <h3>Menu:</h3>
+    <ul class="item">
+      <li>Paneer Butter Masala</li>
+      <li>Dal Makhani</li>
+      <li>Chicken Biryani</li>
+      <li>Butter Naan</li>
+      <li>Gulab Jamun</li>
+    </ul>
+  </div>
+
+</body>
+</html>
