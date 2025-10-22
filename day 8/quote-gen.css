@@ -34,13 +34,15 @@ body {
     gap: 60px;
 }
 button {
-    padding: 10px 20px;
+    height: 50px;
+    width: 150px;
     font-size: large;
     border: none;
     border-radius: 5px;
     background-color: black;
     color: white;
     cursor: pointer;
+    align-self: last;
 }
 button:hover {
     background-color: darkgray;
