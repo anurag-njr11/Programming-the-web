@@ -5,9 +5,9 @@ function toggle() {
                 bulb.src = "bulb-on.png";
                 status.innerHTML = "OFF";
             } 
-
             else {
                 bulb.src = "bulb-off.png";
                 status.innerHTML = "ON"
             }
         }
+console.log(boxes)

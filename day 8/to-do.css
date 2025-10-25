@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;   
+    flex-direction: column; 
+    background-color:rgb(143, 143, 252);}
+input {
+    font-size: larger;
+    margin:10px;
+    height: 30px;
+    width:300px;
+    text-align: center;
+    border-radius: 5px;
+}
+#add {
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    align-self: last;
+}
+#add:hover {
+    background-color: darkgray;
+    color: black;
+    box-shadow: 0px 0px 5px gray;
+}
+ul {width: 100%;
+    height: 100%;
+
+    font-size: x-large;
+}
+
+#tusk {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 40%;
+    height: 60%;
+
+    box-shadow: 5px 5px 5px grey;
+    /* overflow-y: auto ; */
+    /* overflow-x: auto; */
+}
+.chek {
+    border-radius: 50px;
+    
+}
+
+li{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border:1px solid black;
+    grid-template-rows: repeat(10,fr);
+
+    /* justify-content: space-between;
+    align-items: space-between; */
+}
