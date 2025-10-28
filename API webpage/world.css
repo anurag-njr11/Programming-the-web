@@ -74,7 +74,7 @@ background-color: rgb(237, 237, 237); */
 #flags {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 20px;
   width: 100%;
   margin-top: 30px;
@@ -96,7 +96,7 @@ background-color: rgb(237, 237, 237); */
     /* text-align: ; */
     padding: 10px;
  background-color: white;
-    display: inline-block;
+    /* display: inline-block; */
 
     width:300px;
     height:400px;
